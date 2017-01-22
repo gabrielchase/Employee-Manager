@@ -17,6 +17,7 @@ class App extends Component {
 
 		firebase.initializeApp(config);
 	}
+	
 	render() {
 		return (
 			<Provider store={createStore(reducers)}>
